@@ -6,7 +6,7 @@ const app=express()
 app.use(express.json())
 app.use(cookieParser())
 
-//hamne route banaya hai jise, ham is prefix ke sath use krskte hss
+//hamne route banaya hai jise, ham is prefix ke sath use krskte hs
 app.use('/api/auth', authRoutes);
 
 module.exports=app;
